@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+    color: #ffffff; /* Text color for the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 80%;
+    padding: 20px;
+}
+
+.contact-form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 190px;
+    margin-left: 10%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"]{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid; /* Input border color */
+    border-radius: 3px;
+}
+input[type="email"]{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid; /* Input border color */
+    border-radius: 3px;
+}
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid; /* Input border color */
+    border-radius: 3px;
+}
+
+button {
+    background-color: white; 
+    color: black;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white" href="#"><img src="walo-removebg-preview.png" alt="" class="logo" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pricing-plan">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="signup.html">Sign up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contactUs.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <center>
+        <h1 style="width: 30%">Contact Us</h1>
+    </center>
+    </header>
+    <div class="container">
+        <div class="contact-form">
+            <form method="post" action="https://formsubmit.co/chraibimohammed253@gmail.com">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"  required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message"  rows="5" name="message" required></textarea>
+                </div>
+                <button type="submit"  >Submit</button>
+            </form>
+        </div>
+    </div>
+<center>
+        <footer class="footer text-light">
+            <div class="container text-center mt-3 text-light">
+                <p>&copy; 2023 IPTV Hub. All Rights Reserved.</p>
+            </div>
+        </footer>
+</center>
+</body>
+</html>

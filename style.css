@@ -1,0 +1,299 @@
+/* Pricing Plan Styles */
+.pricing-plan {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.pricing-plan__highlighted {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-plan__special-text {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background: #007c64;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) inset;
+}
+
+.pricing-plan__header {
+    padding: 25px;
+    background: #009578;
+    color: #ffffff;
+}
+
+.pricing-plan__title,
+.pricing-plan__summary {
+    margin: 0;
+    text-align: center;
+}
+
+.pricing-plan__title {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pricing-plan__summary {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.pricing-plan__description {
+    padding: 25px;
+}
+
+.pricing-plan__list {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-plan__feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.pricing-plan__feature:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.pricing-plan__feature::before {
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+}
+
+.pricing-plan__actions {
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan__button {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #009578;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.pricing-plan__button:hover {
+    background: #009578;
+    color: #ffffff;
+}
+
+.pricing-plan__cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}
+
+.pricing-plan__text {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.pricing-plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Body Styles */
+body {
+    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+    margin-bottom: 0; /* Reset margin-bottom */
+    color: #ffffff; /* Primary Text Color */
+}
+
+/* Navbar Styles */
+
+
+.navbar-brand {
+    color: #fff; /* White text color for the brand */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White toggler icon color */
+}
+
+.nav-link {
+    color: #fff !important; /* White nav links */
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 60px 0; /* Adjust padding for better centering */
+}
+
+.hero h1,
+.hero p {
+    color: #fff; /* White text color */
+}
+
+.btn-primary {
+    background-color: #08a9a0 !important; /* New button background color */
+    border: none;
+    color: #fff !important; /* White button text color */
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0bbfb7 !important;
+    box-shadow: 10px 10px 10px #08a9a0;
+    transition: box-shadow 1s;
+}
+
+.text-secondary {
+    color: #ff5e00 !important; /* Orange secondary text color */
+}
+
+.featured-content {
+    margin-top: 15px;
+}
+
+/* Card Styles */
+.card {
+    height: 100%;
+}
+
+/* Footer Styles */
+.footer {
+    color: #fff; /* White text color for the footer */
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.footer h4 {
+    color: #ff5e00; /* Orange text color for footer headings */
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ff5e00; /* Orange link color for footer links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .list-inline-item {
+    margin-right: 10px;
+}
+
+.footer .fab {
+    font-size: 24px;
+}
+
+/* Additional Styles */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px #966F33;
+    color: white;
+    background-color: #966F33;
+    transition: color, box-shadow, background-color, 0.6s;
+}
+
+/* Slider Styles */
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 13000px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slide-track img {
+    padding-left: 70px;
+}
+
+.slide {
+    height: 130px;
+    width: 250px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+/* Custom Color Styles */
+.custom-color {
+   color: black;
+}
+
+.custom-paragraph {
+    color: black;
+}
